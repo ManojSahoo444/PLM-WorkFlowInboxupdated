@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="HandheldFriendly" content="true">
+	<script src="//code.jquery.com/jquery-2.0.3.js"></script>
+
+        <title>Active Queries</title>
+
+        <link href="stylesheets/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css" />
+         <script type="text/javascript" charset="utf-8" src="js/gulfmark/Controller.js?version=1.1.0.4"></script>
+         <script type="text/javascript" charset="utf-8" src="js/gulfmark/datajs-1.1.1.js"></script>
+         <script type="text/javascript" charset="utf-8" src="js/gulfmark/jquery-ui.js"></script>
+         <script type="text/javascript" charset="utf-8" src="js/gulfmark/cordova.js"></script>
+         
+   
+         <link href="stylesheets/invoice-home.css" media="screen, projection" rel="stylesheet" type="text/css" />
+                    <link href="stylesheets/fonts.css" media="screen, projection" rel="stylesheet" type="text/css" />
+                    <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+                   <link href="stylesheets/model.css" media="screen, projection" rel="stylesheet" type="text/css" />
+                    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+                   <link href="stylesheets/invoice-details.css" media="screen, projection" rel="stylesheet" type="text/css" />
+                  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+                    <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+                 
+                    
+<link href="stylesheets/screenC.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+<body class="bodyclass">
+   <div class="section-loader"></div>
+   <img src="images/section-loader.gif" id="section-loaderdetail" style="display:none;"/>
+   <section id="homeWrapper" class="wrapper" >
+     <header class="main-header">
+        <h1 class="logo"></h1>
+    </header>
+    <div class="info-bar"  style="text-align: center;color:#1c1357">PLM WorkFlow Inbox</div>
+    <section class="content-area" >
+     <div class="content-container clearfix" style="overflow-y: scroll;height:455px;">
+       <div class="scrollable-area" id="maindiv" style="height: initial;">
+        <div>&nbsp;</div>
+        <table class="invoice-table">
+          <tr  class="table-title">
+            <th style="font-size:14px;color:#1c1357;padding-left: 2px;">Show *</th>
+            <td >
+              <select id="DropdownValues" style="color:#1c1357;">
+                <option value="I" >New and In Progress Work-Items</option>
+               <option value="4" >Completed</option>
+               <option value="5" >Forwarded </option>
+              </select>
+            </td>
+            </tr>
+        </table>
+        <h3 class="table-title" style="font-size:14px;color:#1c1357;padding-left: 2px;">Inbox Work Items</h3>
+        <br>
+        <div id="dynamicbuttons">
+        </div>
+        <br>
+       <table class="main-grid-view" id ="podetailmaintbl" >
+       <thead id="WorkItemsHeader" style="color:#1c1357;">
+          </thead>
+      <tbody id="WorkItemdetails">
+       </tbody>
+           </table>
+       
+   </div>
+   <div id="noItems" style="display: none; padding: 45px 0; text-align: center;">No Items to display</div>
+  </div>
+  </section><!-- .content-area -->
+  <div class="model-screen">
+   <div class="model-container" id="alertbox">
+      <header><span id="header">Logout</span></header>
+      <div class="model-body clearfix">
+      <h5 id="alertMessage"></h5>
+      <input id="ok" type="submit" class="submit-btn" value="OK" />
+      <input id="cancelAlert" type="submit" class="cancel-btn" value="Cancel" />
+     </div>
+  </div>
+  </div>
+  </div><!-- .model-screen -->
+ </section><!-- .wraapper -->
+</body> 
+</html>

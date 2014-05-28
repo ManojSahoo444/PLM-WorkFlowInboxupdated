@@ -1,0 +1,54 @@
+.tab-view{margin:12px auto 30px;visibility:visible !important}.tab-view li{text-align:center;width:33.33%;float:left}.tab-view li:first-child a{border-left:1px solid #6797b9;-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;-ms-border-radius:4px 0 0 4px;-o-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px}.tab-view li:last-child a{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;-ms-border-radius:0 4px 4px 0;-o-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0}.tab-view li.active a{background-color:#0d508a;background-image:-webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #0d508a), color-stop(100%, #256eac));background-image:-webkit-linear-gradient(bottom, #0d508a,#256eac);background-image:-moz-linear-gradient(bottom, #0d508a,#256eac);background-image:-o-linear-gradient(bottom, #0d508a,#256eac);background-image:linear-gradient(bottom, #0d508a,#256eac);background-image:-ms-linear-gradient(bottom, #0d508a, #256eac);border:solid 1px #0a3d7b;color:#fff;text-shadow:1px 1px rgba(0,0,0,0.53)}.tab-view a{height:24px;display:block;color:#235480;font:1.125em "robotobold_condensed",Arial,Helvetica;text-decoration:none;background-color:#79b8dc;background-image:-webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #79b8dc), color-stop(100%, #bbe6fe));background-image:-webkit-linear-gradient(bottom, #79b8dc,#bbe6fe);background-image:-moz-linear-gradient(bottom, #79b8dc,#bbe6fe);background-image:-o-linear-gradient(bottom, #79b8dc,#bbe6fe);background-image:linear-gradient(bottom, #79b8dc,#bbe6fe);background-image:-ms-linear-gradient(bottom, #79b8dc, #bbe6fe);-webkit-box-shadow:inset 0 0 0 1px rgba(255,255,255,0.22);-moz-box-shadow:inset 0 0 0 1px rgba(255,255,255,0.22);box-shadow:inset 0 0 0 1px rgba(255,255,255,0.22);border-style:solid;border-color:#6797b9;border-width:1px 1px 1px 0;text-shadow:1px 1px rgba(255,255,255,0.53)}.icon-arrow-down{width:11px;height:8px;background:url(../images/arrow.png) no-repeat 0 0;float:right;margin-top:7px;cursor:pointer}.icon-arrow-down.active{background-position:0 -8px}.icon-arrow-down.active-down{background-position:0 -16px}.page-overlay{background:#d2dde3;position:fixed;left:0;top:0;right:0;bottom:0}.page-overlay a{color:#4ba5d8}.page-overlay span{position:absolute;left:50%;top:50%;width:160px;height:30px;margin:-15px 0 0 -80px}@media (max-width: 480px){.tab-view{width:70%;margin:0 auto 19px;height:35px}.tab-view li{height:auto}.tab-view a{padding:4px 0}}@media (min-width: 481px){ul.tab-view{width:85.51724137931035%;height:58px}ul.tab-view li{height:49px}ul.tab-view a{padding:16px 0}}
+
+.myclass {
+-moz-box-shadow:inset 1px 1px 1px 1px #85c4f4;
+	-webkit-box-shadow:inset 0px 1px 1px 1px #85c4f4;
+	box-shadow:inset 2px 1px 2px 2px #85c4f4;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89adc9), color-stop(1, #9dbcd5));
+	background:-moz-linear-gradient(top, #89adc9 5%, #9dbcd5 100%);
+	background:-webkit-linear-gradient(top, #89adc9 5%, #9dbcd5 100%);
+	background:-o-linear-gradient(top, #89adc9 5%, #9dbcd5 100%);
+	background:-ms-linear-gradient(top, #89adc9 5%, #9dbcd5 100%);
+	background:linear-gradient(to bottom, #89adc9 5%, #9dbcd5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8dc35', endColorstr='#d1d110',GradientType=0);
+	background-color:#85c4f4;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #4e9adb;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none
+}
+
+.popup-head{
+    font-size: 1.1em;
+    background-color: #1A5990;
+    display: block;
+    height: 33px;
+    color: #fff;
+    width: 188px;
+    position: absolute;
+    padding: 5px 18px;
+    line-height: 2;
+    background-image: -webkit-linear-gradient(70deg,#1F6AA7,#185795);
+    background-image: -webkit-gradient(linear,50% 100%,50% 0%,color-stop(0%,#1F6AA7),color-stop(100%,#185795));
+    background-image: -moz-linear-gradient(70deg,#1F6AA7,#185795);
+    background-image: -o-linear-gradient(70deg,#1F6AA7,#185795);
+    background-image: linear-gradient(70deg,#1F6AA7,#185795);
+    background-image: -ms-linear-gradient(70deg,#1F6AA7,#185795);
+}
+#popup-head1{
+    margin-top: -19px;
+    top: 18px;
+    left: -1px;
+}
+#popup-head2{
+    top: -1px;
+    right: -1px;
+}
